@@ -2,7 +2,8 @@ from django.core.management.base import BaseCommand
 
 class Command(BaseCommand):
     """
-    create new app.
+    Example usage:
+    python manage.py newapp mambu --template=lite --appsdir=apps
     """
     help = __doc__
     args = '<function arg arg ...>'
