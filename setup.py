@@ -10,7 +10,7 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setuptools.setup(
     name='django-newapp',
-    version='0.9.1',
+    version='0.9.2',
     packages=['newapp'],  # ['push'],
     include_package_data=True,
     license='BSD',
