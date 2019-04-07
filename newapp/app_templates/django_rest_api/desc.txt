@@ -1,1 +1,0 @@
-This template for Django Rest API based apps
